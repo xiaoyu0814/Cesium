@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+	  <meta http-equiv="Access-Control-Allow-Origin" content="*" />
+    <title>PIE-Cesium</title>
+    <link href="static/js/Cesium/Widgets/widgets.css" rel="stylesheet" />
+    <link href="static/css/base.css" rel="stylesheet"/>
+    <link href="static/css/DrawHelper.css" rel="stylesheet"/>
+    <style>
+        #map {
+          position: absolute;
+          top: 0;
+          bottom: 0;
+          width: 100%;
+        }
+        .rains{
+          font-size: 25px;
+            color: #f00;
+        }
+        .Disasters{
+          font-size: 20px;
+            color: #f00;
+        }
+      </style>
+  </head>
+  <body>
+    <script src="static/js/Cesium/Cesium.js"></script>
+    <script src="static/js/libs/measureHelper.js"></script>
+    <script src="static/js/libs/disaster.js"></script>
+    <script src="static/js/libs/turf.min.js"></script>
+    <script src="static/js/libs/rainFall.js"></script>
+    <script src="static/js/libs/echarts-all-3.js"></script>
+    <script src="static/js/libs/jquery-2.1.0.js"></script>
+    <!-- <script src="static/js/libs/DrawHelper.js"></script> -->
+    <script src="static/js/Cesium/viewerCesiumNavigationMixin.min.js"></script>
+    <div id="app"></div>
+    <!-- built files will be auto injected -->
+  </body>
+</html>

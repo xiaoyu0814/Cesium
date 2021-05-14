@@ -1,0 +1,66 @@
+
+// basic
+.bold {
+    font-weight: bold;
+}
+.flex {
+    display: flex;
+}
+.overflow {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    word-break: break-all;
+    white-space: nowrap;
+    
+}
+
+// button
+.basic-button {
+    background: linear-gradient(to bottom, @fff, @gray-1);
+    border-color: @gray-4;
+    color: @black-1;
+    border-radius: 0;
+    padding: 5px 14px;
+    line-height: 1;
+    &:hover {
+        border-color: @gray-7;
+        background: linear-gradient(to bottom, @fff, @gray-1);
+        color: @black-1;
+        box-shadow: none;
+    }
+    &:active {
+        border-color: @gray-7;
+        background: linear-gradient(to bottom, @fff, @gray-1);
+        color: @black-1;
+        box-shadow: none; 
+    }
+}
+
+// tool-tips 
+.layer-ops-poptip {
+    align-items: center;
+    display: inline-flex;
+    height: 100%; 
+    .ivu-poptip-rel {
+        display: flex;
+    }
+    .tips-item {
+        text-align: center;
+        padding: 4px 0;
+        font-size: 14px;
+        cursor: pointer;
+        &:hover {
+            background: @main-blue;
+            color: @fff;
+        }
+    }  
+    .ivu-poptip-inner {
+        background: #00000099;
+    }
+    .ivu-poptip-arrow {
+        border-color: #00000099;
+        &::after {
+            
+        }
+    }
+}
